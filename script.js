@@ -29,10 +29,10 @@ for (let i = 0; i < questions.length; i++) {
   const userinput = prompt(x.question)
 
   if (userinput === x.answer){
-   alert('Correct! Your score is ${totalScore + x.score}')
+   alert(`Correct! Your score is ${totalScore + x.score}`)
 
    totalScore = totalScore + x.score
   }else{
-   alert ('Nope! The correct answer is ${x.answer}. Your score is')
+   alert (`Nope! The correct answer is ${x.answer}. Your score is`)
   }
 }
